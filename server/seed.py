@@ -9,6 +9,7 @@ from models import db, Article, User
 
 fake = Faker()
 
+
 with app.app_context():
 
     print("Deleting all records...")
